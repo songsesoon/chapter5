@@ -4,21 +4,27 @@ namespace songsesoon_ex3
 {
     class MainApp
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            int i = 0;
+            int external_loop = 1;
+            int? internal_loop = null;
 
-            do
+            while (external_loop <= 5)
             {
-                Console.WriteLine("*");
-            }
-            while (i < 5);
+                internal_loop = 0;
 
-            do
-            {
-                Console.WriteLine("*");
+                while (true)
+                {
+                    if (internal_loop == external_loop)
+                    {
+                        break;
+                    }
+                    Console.WriteLine("*");
+                    internal_loop++;
+                }
+                Console.WriteLine();
+                external_loop++;
             }
-            while (i < 5);
         }
     }
 }
