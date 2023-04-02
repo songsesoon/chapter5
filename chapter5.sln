@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "songsesoon_ex3", "songsesoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "songsesoon_ex4", "songsesoon_ex4\songsesoon_ex4.csproj", "{EE56388F-7E84-42BD-9FF5-BB034601B399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "songsesoon_ex3-2", "songsesoon_ex3-2\songsesoon_ex3-2.csproj", "{5F576BDA-DF24-47A8-9B06-ED25AF233B39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EE56388F-7E84-42BD-9FF5-BB034601B399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE56388F-7E84-42BD-9FF5-BB034601B399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE56388F-7E84-42BD-9FF5-BB034601B399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F576BDA-DF24-47A8-9B06-ED25AF233B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F576BDA-DF24-47A8-9B06-ED25AF233B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F576BDA-DF24-47A8-9B06-ED25AF233B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F576BDA-DF24-47A8-9B06-ED25AF233B39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
